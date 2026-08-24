@@ -8,6 +8,14 @@ num2 = int(input("Enter your number : "))
 sum = (num1 + num2)
 print(sum)
 
+#write a program  input 2 floating point  numbers  and print their average 
+num1 = float(input("Enter your 1st number : "))
+num2 = float(input("Enter your 2nd number : "))
+sum = (num1 + num2)
+print ("Your Sum is = ",sum)
+avg = (sum / 2)
+print("Your average is = ",avg)
+
 
 
 #write a program  to input  side of a square  and print its area 
