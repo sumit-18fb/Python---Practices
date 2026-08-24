@@ -1,6 +1,19 @@
 
 print ("Hello World")
 
+
+#string Concatenation
+s1 = "Hello"
+s2 = "World"
+strr =(s1 +" "+ s2)
+print(strr)
+
+print(len(str1))
+print(len(s1))
+print(len(s2))
+print(len(strr))
+
+
 #write a program to input 2 numbers and  print their sum
 
 num1 = int(input("Enter your number : "))
