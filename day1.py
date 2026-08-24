@@ -2,6 +2,18 @@
 print ("Hello World")
 
 
+light = input("Light is : ")
+if (light == "red"):
+    print("STOP")
+elif (light == "yellow"):
+    print("WAIT")
+elif (light == "green"):
+    print("GO")
+else:
+    print("Light is broken ")
+
+
+
 print("Student Grade-Card")
 dms = float(input("Enter your marks of DMS : "))
 se = float(input("Enter your marks of SOFTWARE ENGINEERING : "))
