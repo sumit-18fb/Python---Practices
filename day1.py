@@ -1,6 +1,15 @@
 
 print ("Hello World")
 
+#write a program to input 2 numbers and  print their sum
+
+num1 = int(input("Enter your number : "))
+num2 = int(input("Enter your number : "))
+sum = (num1 + num2)
+print(sum)
+
+
+
 
 light = input("Light is : ")
 if (light == "red"):
