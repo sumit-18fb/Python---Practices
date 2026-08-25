@@ -87,6 +87,22 @@ if (nums %2 == 0):
     print("The num is Even")
 elif(nums %2 != 0):
     print("The num is odd")
+
+
+
+
+
+n1 = int(input("Enter the number : "))
+n2 = int(input("Enter the number : "))
+n3 = int(input("Enter the number : "))
+
+if (n1>=n2 and n1>=n3):
+    print("The first number largest : ",n1)
+elif(n2>=n1 and n2>=n3):
+    print("The second number is largest : ",n2)
+else:
+    print("The third number is largest :",n3)
+
 else :
     print("Invalid Input nums")
 
