@@ -91,7 +91,7 @@ elif(nums %2 != 0):
 
 
 
-
+# write a program to find the greatest of 3 numbers entered by the user
 n1 = int(input("Enter the number : "))
 n2 = int(input("Enter the number : "))
 n3 = int(input("Enter the number : "))
