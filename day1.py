@@ -80,3 +80,14 @@ elif(score>=60 and score<=69):
     print("Your Grade is : D")
 else:
     print("Your Grade is : F")
+
+
+nums =  int(input("Enter your num : "))
+if (nums %2 == 0):
+    print("The num is Even")
+elif(nums %2 != 0):
+    print("The num is odd")
+else :
+    print("Invalid Input nums")
+
+
