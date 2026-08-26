@@ -1,6 +1,9 @@
 
 print ("Hello World")
 
+    # string with Escape Character
+str1 = "Hello \ti am sumit parkar \ni am from kolhapur "
+print(str1)
 
 
 
