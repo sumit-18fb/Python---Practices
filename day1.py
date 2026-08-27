@@ -115,3 +115,7 @@ if(num %7 ==0):
 else:
     print("The number is not multiple of 7")
 
+i =1
+while (i <= 10):
+    print(i)
+    i +=1
