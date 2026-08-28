@@ -107,6 +107,23 @@ else :
     print("Invalid Input nums")
 
 
+# write a program to find the greatest of 3 numbers entered by the user
+n1 = int(input("Enter the number : "))
+n2 = int(input("Enter the number : "))
+n3 = int(input("Enter the number : "))
+
+if (n1>=n2 and n1>=n3):
+    print("The first number largest : ",n1)
+elif(n2>=n1 and n2>=n3):
+    print("The second number is largest : ",n2)
+else:
+    print("The third number is largest :",n3)
+
+else :
+    print("Invalid Input nums")
+
+
+
 
 #write a program to check if a number is a multiple of 7 or not
 num = int (input("Enter the number : "))
