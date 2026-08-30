@@ -109,15 +109,3 @@ else :
 
 
 
-
-#write a program to check if a number is a multiple of 7 or not
-num = int (input("Enter the number : "))
-if(num %7 ==0):
-    print("The number is multiple of 7 :",num)
-else:
-    print("The number is not multiple of 7")
-
-i =1
-while (i <= 10):
-    print(i)
-    i +=1
