@@ -142,3 +142,12 @@ def fac ( n = 5,i = 1):
             print(i * n)
 
 fac()
+
+
+
+def fac (n):
+    fact = 1
+    for i in range(1 , n+1):
+        fact *= i
+        print (fact)
+fac(5)
