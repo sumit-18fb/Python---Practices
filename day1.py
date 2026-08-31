@@ -121,3 +121,16 @@ while (i <= 10):
     i +=1
 
 
+
+def sum (a ,b):
+    s = a+b
+    print(s)
+    return(s)
+
+sum(18,9)
+
+
+sum(18,72)
+
+
+sum(18,45)
