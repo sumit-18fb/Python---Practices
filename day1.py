@@ -129,8 +129,16 @@ def sum (a ,b):
 
 sum(18,9)
 
-
 sum(18,72)
 
-
 sum(18,45)
+
+
+
+def fac ( n = 5,i = 1):
+    for i in n:
+        while (i<=n):
+            i +=1
+            print(i * n)
+
+fac()
