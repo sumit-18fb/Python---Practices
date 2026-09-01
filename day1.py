@@ -152,8 +152,3 @@ def fac (n):
         print (fact)
 fac(5)
 
-
-def inr (us , ind =96):
-    print(us * ind)
-    return us *ind
-inr(8)
