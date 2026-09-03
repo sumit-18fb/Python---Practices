@@ -159,3 +159,17 @@ def inr (us , ind =96):
     return us *ind
 inr(8)
 
+
+
+class Programmer:
+    company = "Microsoft"
+    def __init__(self , name , salary , pincode):
+        self.name = name
+        self.salary = salary
+        self.pincode = pincode
+
+emp1 = Programmer("Sumit","400000",465132)
+print(  emp1.name , emp1.company , emp1.salary , emp1.pincode)
+
+emp2 = Programmer("Shruti",400000,465132)
+print(emp2.name , emp2.company , emp2.salary , emp2.pincode)
