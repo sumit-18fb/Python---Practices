@@ -173,3 +173,26 @@ print(  emp1.name , emp1.company , emp1.salary , emp1.pincode)
 
 emp2 = Programmer("Shruti",400000,465132)
 print(emp2.name , emp2.company , emp2.salary , emp2.pincode)
+
+
+
+class Calculator:
+
+    def __init__(self , numb):
+        self.numb = numb
+
+    def square(self):
+        print (f"Square = {self.numb ** 2}")
+
+    def cube(self):
+        print (f"Cube = {self.numb ** 3}") 
+
+    def squareroot(self):
+        print(print (f"Squareroot = {self.numb **0.5}"))
+        
+
+num =  int(input("Enter the Number : "))
+num1 = Calculator(num)
+num1.square()
+num1.cube()
+num1.squareroot()
