@@ -200,23 +200,4 @@ num1.squareroot()
 
 
 
-from random import randint
 
-class Train:
-    def __init__(self , trainNo):
-        self.trainNo = trainNo
-
-    def bookTicket(self , fro , to):
-        print(f"Ticket is booked in Train Number = {self.trainNo} From {fro} to Destination is {to}")
-
-    def  getStatus(self):
-        print(f"Train Number is {self.trainNo} is running on time")
-
-    def getfare(self ,fro , to):
-        print(f"Ticket fare in Train Number is {self.trainNo} From {fro} to {to} is {randint(100,2799)}")
-
-
-t = Train(12041)
-t.bookTicket("kolhapur","pune")
-t.getStatus()
-t.getfare("kolhapur","pune")
